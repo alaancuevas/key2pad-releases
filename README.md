@@ -30,6 +30,21 @@ Go to the [**Releases**](https://github.com/alaancuevas/key2pad-releases/release
 
 ---
 
+## 🎮 Remote Play Together — play co-op without a controller
+
+Steam Remote Play Together lets a friend join your local game remotely — but it requires a controller on the guest's side. Key2Pad solves this by turning the guest's keyboard into a virtual Xbox 360 gamepad, no hardware needed.
+
+**How it works:**
+1. Host starts Key2Pad and launches the game
+2. Guest joins via Steam Remote Play Together
+3. Key2Pad emulates a virtual controller — the guest plays with their keyboard
+
+Key2Pad includes dedicated **Co-op / Remote Play Together** profiles optimized for this use case.
+
+> ⚠️ Avoid use in online competitive games. Key2Pad takes no responsibility for account bans resulting from anti-cheat detection. See the [disclaimer](#️-online-game-ban-disclaimer) below.
+
+---
+
 ## 🛠 Installation
 
 1. Download `Key2Pad-Setup.exe` from the [Releases](https://github.com/alaancuevas/key2pad-releases/releases/latest) page.
@@ -49,7 +64,7 @@ Key2Pad does not contain malware. ViGEmBus is open-source and published by [Nefa
 
 ---
 
-## 🎮 About ViGEmBus
+## 🕹 About ViGEmBus
 
 ViGEmBus is an open-source virtual controller driver by **Nefarius Software Solutions**. It allows Windows to recognize software-created Xbox 360 controllers. It is trusted by DS4Windows, Ryujinx, and thousands of other gaming utilities.
 
