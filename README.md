@@ -1,32 +1,38 @@
 # Key2Pad
 
-> Turn your keyboard into a gamepad.
+> **Your keyboard is now an Xbox controller.**
+> Play any game on Steam, Windows, or anywhere else — without buying a gamepad.
 
-**Key2Pad** is a Windows desktop app that maps keyboard input to a virtual Xbox 360 controller in real time, with ultra-low latency. Built for PC gamers who want to play controller-only games using their keyboard.
+**Key2Pad** is a Windows app that turns your keyboard into a virtual Xbox 360 controller in real time. It doesn't emulate at the game level: it installs an actual virtual gamepad device that is natively recognized by Steam and any game that supports XInput.
 
 ---
 
-## ⬇️ Download
+## ⬇️ Download & Installation
 
-Go to the [**Releases**](https://github.com/alaancuevas/key2pad-releases/releases/latest) page to download the latest version.
+1. Go to the [**Releases**](https://github.com/alaancuevas/key2pad-releases/releases/latest) page and download the `Key2Pad-Setup.exe` installer.
+2. Run the installer. On first launch, the Setup Wizard opens automatically.
+3. Key2Pad will detect if **ViGEmBus** is missing and install it with one click.
+4. Select a starting profile and click **Start Playing**.
 
-**System requirements:**
-- Windows 10 or Windows 11 (64-bit)
-- Administrator privileges (required for driver installation)
-- ~50MB free disk space
+### ⚠️ Windows SmartScreen Warning
+Because Key2Pad is an indie app without a paid Microsoft code-signing certificate, Windows SmartScreen may show a warning. This is a false positive.
+- Click **"More info"**
+- Then click **"Run anyway"**
+
+Key2Pad does not contain malware. ViGEmBus is open-source and published by [Nefarius Software Solutions](https://github.com/nefarius/ViGEmBus).
 
 ---
 
 ## ⚡ Features
 
-- **Ultra-low latency** — Native C++ pipeline, P95 under 8ms
-- **Game profiles** — FPS, Racing, RPG, Platformer, Fighting and more
-- **Virtual Xbox 360 gamepad** — Powered by ViGEmBus
-- **Live overlay** — See your inputs in real time on screen
-- **Per-game key mapping** — Buttons, analog sticks (deadzone + sensitivity), triggers
-- **Favorites** — Star profiles for quick access
-- **Google login** — Save your license in the cloud
-- **Toggle anytime** — Press `F12` to pause/resume without closing the app
+- **Ultra-low latency** — Native C++ pipeline, P95 under 8ms.
+- **Game profiles** — FPS, Racing, RPG, Platformer, Fighting and more.
+- **Virtual Xbox 360 gamepad** — Powered by ViGEmBus.
+- **Live overlay** — See your inputs in real time on screen.
+- **Per-game key mapping** — Buttons, analog sticks (deadzone + sensitivity + curve), triggers.
+- **Favorites** — Star profiles for quick access.
+- **Google login** — Save your license in the cloud.
+- **Toggle anytime** — Press `F12` to pause/resume without closing the app.
 
 ---
 
@@ -42,31 +48,6 @@ Steam Remote Play Together lets a friend join your local game remotely — but i
 Key2Pad includes dedicated **Co-op / Remote Play Together** profiles optimized for this use case.
 
 > ⚠️ Avoid use in online competitive games. Key2Pad takes no responsibility for account bans resulting from anti-cheat detection. See the [disclaimer](#️-online-game-ban-disclaimer) below.
-
----
-
-## 🛠 Installation
-
-1. Download `Key2Pad-Setup.exe` from the [Releases](https://github.com/alaancuevas/key2pad-releases/releases/latest) page.
-2. Run the installer. On first launch, the Setup Wizard opens automatically.
-3. Key2Pad will detect if **ViGEmBus** is missing and install it with one click.
-4. Select a starting profile and click **Start Playing**.
-
-### ⚠️ Windows SmartScreen warning
-
-Because Key2Pad is an indie app without a paid Microsoft code-signing certificate, Windows SmartScreen may show a warning. This is a false positive.
-
-To proceed:
-- Click **"More info"**
-- Then click **"Run anyway"**
-
-Key2Pad does not contain malware. ViGEmBus is open-source and published by [Nefarius Software Solutions](https://github.com/nefarius/ViGEmBus).
-
----
-
-## 🕹 About ViGEmBus
-
-ViGEmBus is an open-source virtual controller driver by **Nefarius Software Solutions**. It allows Windows to recognize software-created Xbox 360 controllers. It is trusted by DS4Windows, Ryujinx, and thousands of other gaming utilities.
 
 ---
 
