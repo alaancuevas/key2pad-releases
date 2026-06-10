@@ -6,18 +6,20 @@ Format: `[version] — YYYY-MM-DD`
 
 ---
 
-## [1.0.0] — 2026-04-16
+## [1.0.0] — 2026-06-07
 
-### 🎉 Initial release
+### 🎉 Official Release
 
 - Virtual Xbox 360 controller emulation via ViGEmBus
 - Setup Wizard with automatic driver detection and installation
 - Game profiles organized by genre: FPS, Racing, RPG, Platformer, Fighting, General
-- Per-profile key mapping: buttons, analog sticks (deadzone + sensitivity + curve), triggers
-- Favorites system — star profiles for quick access
-- Live input overlay — see your inputs in real time on screen
-- Latency stats panel (Avg, P95, P99) visible while pipeline is running
+- Cloud Profile Synchronization — Save and restore your profiles from the cloud.
 - Toggle pipeline with `F12` hotkey at any time
-- Google login for cloud license storage
-- Activation code system (Connector license via Gumroad)
-- Minimal dark UI — Inter + JetBrains Mono design system
+- Google login for cloud license and profile storage
+- Multi-Keyboard — Dedicated detection and injection for using a secondary keyboard.
+- Improved activation code system with recovery (Gumroad Native Keys)
+- Live input overlay (Pill or Gamepad Mode) — see your inputs in real time on screen
+- Critical Patches (Under the hood):
+  - Fixed memory risk (Memory Leaks / OOM) in the native C++/JS bridge.
+  - Enhanced security for internal navigation (HTTPS enforcement).
+  - Fixed Gumroad license synchronization.
